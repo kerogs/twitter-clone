@@ -133,7 +133,7 @@
             </div>
   
             <div class="wrapper-left-elements">
-              <!-- <a href="/twitter/<?php echo $user->username; ?>"  style="margin-top: 4px"><strong>Profile</strong></a> -->
+              <!-- <a href="/<?php echo $user->username; ?>"  style="margin-top: 4px"><strong>Profile</strong></a> -->
               <a  href="<?php echo BASE_URL . $user->username; ?>"  style="margin-top: 4px"><strong>Profile</strong></a>
             
             </div>

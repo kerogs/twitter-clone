@@ -16,7 +16,7 @@ global $pdo;
 // $getFormTweet = new Tweet($conn);
 
 
-define("BASE_URL" , "http://localhost/twitter/");
+define("BASE_URL" , "http://localhost/");
 
 
 

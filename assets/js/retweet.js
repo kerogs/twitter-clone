@@ -53,7 +53,7 @@ $(function(){
 			$('.retweet-div').hide();
 
 			// $.ajax({
-			// 	url: 'http://localhost/twitter/home.php',
+			// 	url: 'http://localhost/home.php',
 			// 	success: function(data) {
 				  
 			// 		window.location.reload(); // This is not jQuery but simple plain ol' JS
