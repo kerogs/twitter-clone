@@ -2,8 +2,10 @@
 
 Bulit PHP **_Twitter Clone_** IN OOP style and using MYSQL Database. AJAX and Jquery for requests without reloading like Follow/unfollow, like, Search users, Show popups like comment , User lists, etc.
 
-
 ## Features
+
+<details open>
+<summary>See all</summary>
 
 - Sign in / Sign UP
 - Post Image or Normal Tweet.
@@ -17,48 +19,18 @@ Bulit PHP **_Twitter Clone_** IN OOP style and using MYSQL Database. AJAX and Jq
 - Search users by name and username.
 - Edit Profile Like: (Change :avatar/username/cover etc).
 
+</details>
+
 ## Running locally
- 
- - Create New Database then import twitter.sql file on it.
- - go to PATH **core/classes/connection.php** and add your database info.
 
- ```php
-    protected static $servername = "localhost";
-    protected static $db_name="twitter";
-    protected static $username = "root";
-    protected static $password = "";
+- Create New Database (called "twitter") then import twitter.sql file on it.
+- go to PATH **core/classes/connection.php** and add your database info.
+
+```php
+   protected static $servername = "localhost";
+   protected static $db_name="twitter";
+   protected static $username = "root";
+   protected static $password = "";
 ```
- then the project is ready to run in localhost!
 
-## 📷 UI
-
-
-### Index
-![Index](screenshots/Index.png)
-
-### Home
-![Home](screenshots/Home.png)
-
-### Tweet and Comments
-![Post](screenshots/Inner-Post.png)
-
-### Profile
-![Profile](screenshots/Profile.png)
-
-### Notifications
-![Movie](screenshots/Notifications.png)
-
-### Edit Account
-![Edit](screenshots/Edit.png)
-
-### Preview Image before Tweet
-![Post](screenshots/Post.png)
-
-### Users List (For following/likedby etc)
-![Users](screenshots/Users.png)
-
-### Setting
-![Setting](screenshots/Setting.png) 
-
-
-
+then the project is ready to run in localhost!
